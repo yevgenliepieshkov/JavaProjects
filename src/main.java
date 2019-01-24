@@ -20,10 +20,11 @@ public class main {
         for(int i = 0; i<s2.length(); i++){
             int c = (int) s2.charAt(i);
             if(--letters[c]<0){
+                System.out.println(letters[c]);
                 return false;
             }
         }
-        
+
         return true;
     }
 }
